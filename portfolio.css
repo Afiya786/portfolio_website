@@ -1,0 +1,209 @@
+:root{
+	--primary: #00ccff;
+	--dark:#001f33;
+	--ternary: #0099ff;
+	--pure:#e6e6e6 ;
+	--light: #00a3cc;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+}
+
+header{
+	background: var(--dark) ;
+	clip-path: polygon(0 0,100% 0,100% 100%,80% 88%, 0 100% );
+	
+}
+
+.container{
+	max-width: 1152px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+header nav .left a{
+	color: var(--pure);
+	text-decoration: none;
+	margin-right: 2rem;
+	text-transform: uppercase;
+}
+
+header .container{
+	color: var(--light);
+}
+.flex{
+	display: flex;
+}
+
+.items-center{
+	align-items: center;
+
+}
+
+.justify-between{
+	justify-content: space-between;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+header nav{
+	padding: 2rem 0;
+}
+
+header nav .branding{
+	margin-right: 3rem;
+} 
+
+header nav .left a:hover{
+	color: var(--light);
+	transition: .3s all ease;
+}
+
+.btn{
+	padding: 0.8rem 0.8rem;
+	font-size: 2rem;
+	font-weight: 600;
+	border: 2px solid transparent;
+	outline: none;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.btn-primary{
+	background: steelblue;
+	color: white;
+	font-size: 1rem;
+
+}
+
+.btn-primary:hover{
+	background: transparent;
+	transition: .3s all ease;
+	border-color: var(--primary);
+	color: var(--primary);
+}
+
+.hero{
+	padding: 3rem 0 ;
+}
+
+.hero .left img{
+	width: 400px;
+	margin: 5rem 5rem;
+}
+
+.hero .right p{
+	color: steelblue;
+	line-height: 1.5rem;
+	margin-bottom: 2rem ;
+	margin-right: 1.2rem;
+
+
+}
+.hero .right h6{
+	font-size: 1.6rem;
+	color: powderblue;
+	margin-bottom:0.5rem ;
+}
+
+
+
+
+
+.hero .right h1{
+	font-size: 4rem;
+	font-weight: 100;
+	line-height: 1.2;
+	margin-bottom: 0.5rem;
+}
+
+.hero .right h1 span{
+	color: powderblue;
+	margin-left: 0.5rem;
+	line-height: 3.0rem;
+	margin-bottom: 2.5rem;
+}
+
+
+.btn-secondary{
+	background: transparent;
+	color: steelblue;
+	border-color: steelblue;
+	font-size: 20px;	
+}
+
+.btn-secondary:hover{
+	background: powderblue;
+	transition: .3s all ease;
+	color: steelblue;
+	cursor: pointer;
+}
+
+.flex-1{
+	flex: 1;
+}
+
+.justify-center{
+	justify-content: center;
+}
+
+.hero .right{
+	margin-top: -7rem ;
+}
+
+section{
+	padding: 6rem 0;
+}
+
+.about.about-me{
+	height: 500px;
+}
+
+section.about h1{
+	margin-bottom: 1rem;
+	font-size: 1.6rem;
+	font-weight: 400;
+}
+
+ .about h1 span{
+	color: steelblue;
+}
+
+.about h3{
+	font-size:1rem ;
+	margin-bottom: 1.5rem;
+}
+
+.about p{
+   font-family: sans-serif;
+   line-height: 1.5;
+   margin-bottom: 1rem;
+   color: steelblue;
+   justify-content: center;
+   align-items: center;
+}
+
+   about.about .social{
+	display: flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 35px;
+	height: 35px;
+	margin-right: 0.9rem ;
+
+}
+
+section .about .social a img{
+	width: 100%;
+	height: 100%;
+	padding: ; 0.5rem
+}
+
+
